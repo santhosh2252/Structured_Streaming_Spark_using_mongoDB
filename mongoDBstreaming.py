@@ -52,9 +52,9 @@ if __name__ == "__main__":
         emailp=row.email
         statusp=row.status
 
-        receiver = "sivasanthosh9788@gmail.com"
-        sender = "streaminga28@gmail.com"
-        senders_password = "User1120"
+        receiver = "reciever@gmail.com"
+        sender = "sender@gmail.com"
+        senders_password = "password"
 
         body = "user " + emailp + " is " + statusp
         subject = "User rejected"
