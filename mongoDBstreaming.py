@@ -8,7 +8,8 @@ from pyspark.sql.types import *
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-
+#prerequestie
+#you need to create a confluent kafka producer using mongoDb connector to stream data from mongoDb database
 if __name__ == "__main__":
 
     print("application started")
